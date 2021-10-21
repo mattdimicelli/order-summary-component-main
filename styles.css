@@ -33,30 +33,30 @@ The designs were created to the following widths:
 */
 
 body {
-    background-color: hsl(225deg 54% 79%);
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-
-.main-container {
-    border: 1px solid red;
-    width: 85%;
+    justify-content: center;
     height: 100vh;
 }
 
-.whole-component {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 2px dashed red;
+
+img.hero {
+    max-width: 100%;
+    height: auto;
 }
 
-.hero-container {
-    
+.whole-component {
+    width: 325px;
+    background-color: white;
+    border: 1px solid red;
+    flex: 1;
+    margin: 4rem 0;
+    border-radius: 1rem;
 }
 
 
