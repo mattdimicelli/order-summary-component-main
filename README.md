@@ -4,13 +4,15 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [Frontend Mentor - Order summary card solution](#frontend-mentor---order-summary-card-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
 
 
 ## Overview
@@ -36,6 +38,7 @@ Users should be able to:
 
 ### Built with
 
+- Semantic HTML5
 - Flexbox
 - Mobile-first workflow
 - Media queries
@@ -62,3 +65,9 @@ Users should be able to:
   }
   ```
   will prevent the image from bleeding out of the container.
+
+- Every HTML document should have one main landmark, and all page content should
+  be contained by landmarks.  In this document I used HTML5 semantic elements
+  as well as Aria attributes to achieve this.  Although the future will favor
+  the use of the native HTML5 elements, for now, it is still a best practice to 
+  include both.
